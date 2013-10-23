@@ -1,0 +1,12 @@
+#I should see data from database on root page
+
+#Assert creation
+
+#assert edit
+
+#When I like an idea, it should appear above others
+make assertion before liking that thing 2 is not above thing 1 BEFORE liking to see if Thing 2 supercedes Thing1
+
+#Assert deletion
+
+

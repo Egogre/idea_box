@@ -30,7 +30,7 @@ class IdeaBoxApp < Sinatra::Base
 
   get '/:id/edit' do |id|
     idea = IdeaStore.find(id.to_i)
-    erb :edit, locals: {idea: idea}
+    erb :edit, locals: {idea: idea, id: id}
   end
 
   put '/:id' do |id|

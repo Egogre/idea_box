@@ -1,2 +1,11 @@
 ---
-ideas: []
+ideas:
+- title: '112'
+  description: '13123'
+  rank: 4
+- title: newfile
+  description: test like command
+  rank: 4
+- title: hi
+  description: this is the best
+  rank: 7
