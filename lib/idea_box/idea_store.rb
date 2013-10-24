@@ -7,6 +7,7 @@ class IdeaStore
     database.transaction do |db| 
       db['ideas'] << data
     end
+    all
   end
 
   def self.database
